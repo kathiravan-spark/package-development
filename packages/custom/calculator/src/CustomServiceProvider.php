@@ -1,6 +1,6 @@
 <?php
 
-namespace laravel\custom;
+namespace custom\calculator;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,8 +13,8 @@ class CustomServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('laravel\custom\CustomController');
-        $this->loadViewsFrom(__DIR__.'/views','custom');
+        $this->app->make('custom\calculator\CustomController');
+        $this->loadViewsFrom(__DIR__.'/views','calculator');
     }
 
     /**
