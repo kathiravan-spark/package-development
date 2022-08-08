@@ -1,0 +1,5 @@
+{
+    "name": "laravel/custom",
+    "description": "This Custom Package is used for calculator",
+    "require": {}
+}
